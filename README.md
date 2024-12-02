@@ -27,8 +27,8 @@ Run in debug mode:
 Access the microservice:
 
 ```
-curl http://localhost:9090/fhir/SubscriptionNotification
-curl http://localhost:9090/fhir/Log
+curl http://localhost:9090/SubscriptionNotification
+curl http://localhost:9090/Log
 ```
 
 ## Using Rest-Hook Subscriptions
@@ -45,7 +45,7 @@ The `src/main/resources` directory provides the WebSocket subscription implement
 
 ## FHIR Services
 
-The service endpoints in the table below are relative to `http://localhost:9090/fhir`.
+The service endpoints in the table below are relative to `http://localhost:9090`.
 
 | Service                     | Methods | Description                                                 |
 | --------------------------- |---------| ----------------------------------------------------------- |
